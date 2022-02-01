@@ -11,4 +11,4 @@ phases:
 reports:
   kics-report:
     files:
-      - junit-kics-report.json
+      - junit-kics-report.xml
