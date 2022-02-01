@@ -1,7 +1,10 @@
 version: 0.2
 
 phases:
-  kics-scan:
+  pre_build:
     commands:
       - echo Starting Kics scan
       - docker run -v $PWD:/path scan -p /path 
+  build:
+    commands:
+      - echo Build started on `date`
