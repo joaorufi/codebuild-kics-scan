@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Starting Kics scan
-      - docker run -v $PWD:/path scan -p /path 
+      - docker run -v $PWD:/path checkmarx/kics scan -p /path 
   build:
     commands:
       - echo Build started on `date`
