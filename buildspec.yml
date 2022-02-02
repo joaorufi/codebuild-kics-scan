@@ -1,13 +1,10 @@
 version: 0.2
 
 phases:
-  pre_build:
+  build:
     commands:
       - echo Starting Kics scan
       - docker run -v $PWD:/path checkmarx/kics scan --no-progress --ignore-on-exit all -p /path -o /path --report-formats junit --output-name kics-report
-  build:
-    commands:
-      - echo Build started on `date`
 reports:
   kics-report:
     files:
