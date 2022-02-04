@@ -34,10 +34,10 @@
 			<failure type="Resource Not Using Tags" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 21, aws_instance[{{web}}].tags has tags defined other than &#39;Name&#39;, but aws_instance[{{web}}].tags has no tags defined."></failure>
 			<failure type="Resource Not Using Tags" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 30, aws_instance[{{web2}}].tags has tags defined other than &#39;Name&#39;, but aws_instance[{{web2}}].tags has no tags defined."></failure>
 		</testcase>
-		<testcase name="../../path/terraform.tf&#39; file in line 17" classname="EC2 Instance Has Public IP">
+		<testcase name="[EC2 Instance Has Public IP]: ../../path/terraform.tf&#39; file in line 17" classname="EC2 Instance Has Public IP">
 			<failure type="EC2 Instance should not have a public IP address." message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 17, &#39;associate_public_ip_address&#39; is defined and not null, but &#39;associate_public_ip_address&#39; is undefined or null."></failure>
 		</testcase>
-		<testcase name="../../path/terraform.tf&#39; file in line 26" classname="EC2 Instance Has Public IP">
+		<testcase name="[EC2 Instance Has Public IP]: ../../path/terraform.tf&#39; file in line 26" classname="EC2 Instance Has Public IP">
 			<failure type="EC2 Instance should not have a public IP address." message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 26, &#39;associate_public_ip_address&#39; is defined and not null, but &#39;associate_public_ip_address&#39; is undefined or null."></failure>
 		</testcase>
 	</testsuite>
