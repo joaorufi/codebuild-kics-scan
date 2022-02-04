@@ -14,34 +14,34 @@
 		</testcase>
 	</testsuite>
 	<testsuite name="Terraform" failures="2" tests="2">
-		<testcase name="Instance With No VPC: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="Instance With No VPC: ../../path/terraform.tf&#39; file in line 17" classname="Terraform">
 			<failure type="Instance should be configured in VPC (Virtual Private Cloud)" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 17, Attribute &#39;vpc_security_group_ids&#39; is defined and not null, but Attribute &#39;vpc_security_group_ids&#39; is undefined or null."></failure>
 		</testcase>
-		<testcase name="Instance With No VPC: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="Instance With No VPC: ../../path/terraform.tf&#39; file in line 26" classname="Terraform">
 			<failure type="Instance should be configured in VPC (Virtual Private Cloud)" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 26, Attribute &#39;vpc_security_group_ids&#39; is defined and not null, but Attribute &#39;vpc_security_group_ids&#39; is undefined or null."></failure>
 		</testcase>
 	</testsuite>
 	<testsuite name="Terraform" failures="2" tests="2">
-		<testcase name="EC2 Instance Monitoring Disabled: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="EC2 Instance Monitoring Disabled: ../../path/terraform.tf&#39; file in line 17" classname="Terraform">
 			<failure type="EC2 Instance should have detailed monitoring enabled. With detailed monitoring enabled data is available in 1-minute periods" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 17, &#39;monitoring&#39; is defined and not null%!(EXTRA string=web), but &#39;monitoring&#39; is undefined or null%!(EXTRA string=web)."></failure>
 		</testcase>
-		<testcase name="EC2 Instance Monitoring Disabled: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="EC2 Instance Monitoring Disabled: ../../path/terraform.tf&#39; file in line 26," classname="Terraform">
 			<failure type="EC2 Instance should have detailed monitoring enabled. With detailed monitoring enabled data is available in 1-minute periods" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 26, &#39;monitoring&#39; is defined and not null%!(EXTRA string=web2), but &#39;monitoring&#39; is undefined or null%!(EXTRA string=web2)."></failure>
 		</testcase>
 	</testsuite>
 	<testsuite name="Terraform" failures="2" tests="2">
-		<testcase name="EC2 Not EBS Optimized: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="EC2 Not EBS Optimized: ../../path/terraform.tf&#39; file in line 17" classname="Terraform">
 			<failure type="It&#39;s considered a best practice for an EC2 instance to use an EBS optimized instance. This provides the best performance for your EBS volumes by minimizing contention between Amazon EBS I/O and other traffic from your instance" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 17, &#39;ebs_optimized&#39; is set to true, but &#39;ebs_optimized&#39; is undefined or null."></failure>
 		</testcase>
-		<testcase name="EC2 Not EBS Optimized: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="EC2 Not EBS Optimized: ../../path/terraform.tf&#39; file in line 26" classname="Terraform">
 			<failure type="It&#39;s considered a best practice for an EC2 instance to use an EBS optimized instance. This provides the best performance for your EBS volumes by minimizing contention between Amazon EBS I/O and other traffic from your instance" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 26, &#39;ebs_optimized&#39; is set to true, but &#39;ebs_optimized&#39; is undefined or null."></failure>
 		</testcase>
 	</testsuite>
 	<testsuite name="Terraform" failures="2" tests="2">
-		<testcase name="Resource Not Using Tags: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="Resource Not Using Tags: ../../path/terraform.tf&#39; file in line 21" classname="Terraform">
 			<failure type="AWS services resource tags are an essential part of managing components" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 21, aws_instance[{{web}}].tags has tags defined other than &#39;Name&#39;, but aws_instance[{{web}}].tags has no tags defined."></failure>
 		</testcase>
-		<testcase name="Resource Not Using Tags: ../../path/terraform.tf&#39;" classname="Terraform">
+		<testcase name="Resource Not Using Tags: ../../path/terraform.tf&#39; file in line 30" classname="Terraform">
 			<failure type="AWS services resource tags are an essential part of managing components" message="A problem was found on &#39;../../path/terraform.tf&#39; file in line 30, aws_instance[{{web2}}].tags has tags defined other than &#39;Name&#39;, but aws_instance[{{web2}}].tags has no tags defined."></failure>
 		</testcase>
 	</testsuite>
